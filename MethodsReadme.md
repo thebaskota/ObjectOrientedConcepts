@@ -21,7 +21,7 @@ Syntax
 
 example: 
 ```java
-    public static int calculateSum( int num1, int num 2)
+    public static int calculateSum( int num1, int num2)
     {
         int sum;
         sum = num1 + num2;
