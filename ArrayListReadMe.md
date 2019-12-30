@@ -1,6 +1,6 @@
-#ArrayList
+# ArrayList
 
-##Introduction
+## Introduction
 ---
 The ArrayList class is a resizable array, which can be found in the java.util package.
 
@@ -19,3 +19,23 @@ Following are few key points to note about ArrayList in Java -
 * You cannot create an ArrayList of primitive types like int, char etc. You need to use boxed types like Integer, Character, Boolean etc.
 
 * Java ArrayList is not synchronized. If multiple threads try to modify an ArrayList at the same time, then the final outcome will be non-deterministic. You must explicitly synchronize access to an ArrayList if multiple threads are gonna modify it.
+
+### Declaration
+
+```java
+
+      import java.util.ArrayList; // import the ArrayList class
+      
+      ArrayList<Type> arrName = new ArrayList<Type>();
+      //Here Type is the type of elements in ArrayList to be created
+      // arrName is the name
+      
+        // Creating an ArrayList of String
+        List<String> animals = new ArrayList<String>();
+        
+        // Create an arrayList with initial capacity 2 
+        ArrayList<Integer> arrL = new ArrayList<Integer>(2);
+        
+        
+        
+```
