@@ -86,15 +86,18 @@ Loop through the elements of an ArrayList with a for loop, and use the size() me
 
 ```java
 for (int i = 0; i < arrL.size(); i++) {
-      System.out.println(cars.get(i));
+      System.out.println(arrL.get(i));
     }
 ```
 **For each loop:**
 ```java
-for (String i : cars) {
+for (String i : arrL) {
       System.out.println(i);
     }
 ```
+
+#### Sort an ArrayList
+It includes the sort() method for sorting lists alphabetically or numerically:
 
 
 
