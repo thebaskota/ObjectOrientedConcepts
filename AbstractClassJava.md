@@ -14,7 +14,12 @@ Data Abstraction may also be defined as the process of identifying only the requ
 Consider a real-life example of a man driving a car. The man only knows that pressing the accelerators will increase the speed of car or applying brakes will stop the car but he does not know about how on pressing the accelerator the speed is actually increasing, he does not know about the inner mechanism of the car or the implementation of accelerator, brakes etc in the car. This is what abstraction is.
 
 ---
+#### When to use Abstract Methods & Abstract Class?
+Abstract methods are mostly declared where two or more subclasses are also doing the same thing in different ways through different implementations. It also extends the same Abstract class and offers different implementations of the abstract methods.
 
+Abstract classes help to describe generic types of behaviors and object-oriented programming class hierarchy. It also describes subclasses to offer implementation details of the abstract class.
+
+---
 #### Ways to achieve Abstraction
 There are two ways to achieve abstraction in java
 * Abstract class 
@@ -126,3 +131,11 @@ Rectangle constructor called
 Circle color is Redand area is : 15.205308443374602
 Rectangle color is Yellowand area is : 8.0
 ```
+
+---
+#### Advantages of Abstraction
+
+* It reduces the complexity of viewing the things.
+* Avoids code duplication and increases reusability.
+* Helps to increase security of an application or program as only important details are provided to the user.
+
